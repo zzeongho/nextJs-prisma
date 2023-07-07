@@ -3,7 +3,7 @@ import { MetaMaskSDK } from "@metamask/sdk";
 const MMSDK = new MetaMaskSDK({
   dappMetadata: {
     name: "Project",
-    url: "https://project.project",
+    url: "https://next-js-prisma-two.vercel.app",
   },
 });
 const ethereum = MMSDK.getProvider();
